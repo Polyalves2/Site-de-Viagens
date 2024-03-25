@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Viagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #008080;
+        }
+
+        header {
+            background-size: cover;
+            padding: 2px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        aside {
+            background-color:#008080;
+            padding: 20px;
+        }
+
+        img {
+            border-radius: 5px;
+        }
+
+        section.grid-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <header>
+        <h1>Viagem dos seus sonhos</h1>
+        <img src="./ilha.jpg" alt="site de viagens"/>
+    <nav>
+        <ul>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <h2>Informações</h2>
+        <p>Encontre os melhores destinos para suas próximas férias!</p>
+    </aside>
+
+    <section class="grid-container">
+        <article>
+            <h2>Explorando Novos Horizontes</h2>
+            <p>Descubra destinos incríveis e crie memórias inesquecíveis com nossos pacotes de viagem.</p>
+        </article>
+        <article>
+            <h2>Promoções Imperdíveis</h2>
+            <p>Confira nossas ofertas especiais e garanta sua próxima viagem com descontos exclusivos.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Site de Viagens. Todos os direitos reservados.</p>
+    </footer>
+</main>
+</body>
+</html>
